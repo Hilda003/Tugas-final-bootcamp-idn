@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tugas-final-bootcamp-idn</string>
+    <string name="bestFood">Best Food 2022</string>
+    <string name="user_logo">user logo</string>
+    <string name="Best_food">Best Food</string>
+    <string name="example_rate">4.8</string>
+    <string name="food_image">Food Image</string>
+    <string name="rate">Rate</string>
+    <string name="food_name">Food Name</string>
+    <string name="about_food">about food</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="screenshots">Screenshoots</string>
+    <string name="screenshots_food">Screenshoot Food</string>
+    <string name="warning">Warning</string>
+    <string name="failed_to_fetch_data">"Failed to fetch data "</string>
+    <string name="favorites_empty">Favorite Empty</string>
+    <string name="example_date">22-10-2022</string>
+    <string name="remove_from_favorite">remove from favorite</string>
+    <string name="game_detail_image">food detail</string>
+</resources>
