@@ -21,7 +21,7 @@
             app:layout_constraintVertical_bias="0.5">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/game_detail_wrapper"
+                android:id="@+id/food_detail_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
                 app:layout_constraintVertical_bias="0.5">
 
                 <ImageView
-                    android:id="@+id/img_detail_game"
+                    android:id="@+id/img_detail_food"
                     loadImageFromUrl="@{gameDetail.backgroundImage}"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
@@ -45,7 +45,7 @@
                     tools:src="@drawable/img_placeholder" />
 
                 <TextView
-                    android:id="@+id/game_name"
+                    android:id="@+id/food_name"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -58,7 +58,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/item_star_img"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/img_detail_game"
+                    app:layout_constraintTop_toBottomOf="@+id/img_detail_food"
                     tools:text="@string/food_name" />
 
                 <ImageView
@@ -67,13 +67,13 @@
                     android:layout_height="28dp"
                     android:contentDescription="@string/rate"
                     android:src="@drawable/ic_star_rate"
-                    app:layout_constraintBottom_toBottomOf="@+id/game_name"
-                    app:layout_constraintEnd_toStartOf="@+id/game_rating_detail"
-                    app:layout_constraintTop_toTopOf="@+id/game_name"
+                    app:layout_constraintBottom_toBottomOf="@+id/food_name"
+                    app:layout_constraintEnd_toStartOf="@+id/food_rating_detail"
+                    app:layout_constraintTop_toTopOf="@+id/food_name"
                     app:tint="@color/yellow_star" />
 
                 <TextView
-                    android:id="@+id/game_rating_detail"
+                    android:id="@+id/food_rating_detail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -99,7 +99,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/game_name"
+                    app:layout_constraintTop_toBottomOf="@+id/food_name"
                     tools:text="22-10-2022" />
 
                 <TextView

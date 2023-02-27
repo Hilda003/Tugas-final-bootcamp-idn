@@ -1,6 +1,6 @@
 package hildatul.wardah.tugas_final_bootcamp_idn.data.network
 
-import hildatul.wardah.tugas_final_bootcamp_idn.data.network.api.NewsApi
+import hildatul.wardah.tugas_final_bootcamp_idn.data.network.api.FoodApi
 import hildatul.wardah.tugas_final_bootcamp_idn.utils.Constant.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -11,7 +11,7 @@ object Service {
         Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build()
     }
 
-    val NewsServices: NewsApi by lazy {
-        retrofit.create(NewsApi::class.java)
+    val FoodServices: FoodApi by lazy {
+        retrofit.create(FoodApi::class.java)
     }
 }
